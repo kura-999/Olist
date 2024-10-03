@@ -19,7 +19,7 @@ The goal of my investigation of this dataset was to answer the question:
 
 ## Notebooks
 
-All the steps taken during this project are visible in the [notebooks folder](https://github.com/Kaaykun/OlistAnalysis/tree/master/notebooks). 
+All the steps taken during this project are visible in the [notebooks folder](https://github.com/kura-999/olist/tree/main/notebooks). 
 
 Each notebook builds on the previous one and was also used to create the python scripts described later in the README.
 
@@ -27,7 +27,7 @@ Each notebook builds on the previous one and was also used to create the python 
 
 The Olist dataset consists of information (customers, reviews, products etc..) on 100k orders.
 
-9 csvs (~120mb) are available [to downloaded here](https://www.kaggle.com/olistbr/brazilian-ecommerce) and can be found in the [data/csv folder](https://github.com/Kaaykun/OlistAnalysis/tree/master/data/csv).
+9 csvs (~120mb) are available [to downloaded here](https://www.kaggle.com/olistbr/brazilian-ecommerce) and can be found in the [data/csv folder](https://github.com/kura-999/olist/tree/main/data/csv).
 
 ### Data Model
 
@@ -156,7 +156,7 @@ Translates the product_category_name to English.
 
 ## Olist Classes
 
-The [utils folder](https://github.com/Kaaykun/OlistAnalysis/tree/master/utils) contains Olist Classes that handle the logic of data cleaning for my project.
+The [utils folder](https://github.com/kura-999/olist/tree/main/utils) contains Olist Classes that handle the logic of data cleaning for my project.
 
 For example, the below returns data as a Python dictionary using the `get_data` method from the `Olist` class:
 
